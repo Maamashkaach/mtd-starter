@@ -1,0 +1,42 @@
+{
+    "file_type": "csv",
+    "name": "words",
+    "display": "word",
+    "compare": "compare_form",
+    "sorting": "sort_form",
+    "transducers": [
+        {
+            "source": "word",
+            "target": "compare_form",
+            "functions": [
+                "../transducers/southernmichif-approx.yaml"
+            ]
+        },
+        {
+            "source": "word",
+            "target": "sort_form",
+            "functions": [
+                "lambda x: x.lower()"
+            ]
+        }
+    ],
+    "targets": {
+        "definition": "2",
+        "word": "0",
+        "theme": "6",
+        "secondary_theme": "7",
+        "optional": [
+            {
+                "Root": "1",
+                "Awa/Ooma": "5",
+                "Category": "6",
+                "Subcategory": "7",
+                "Part of Speech": "4",
+                "Variations": "8",
+                "Notes": "9",
+                "Example Sentence": "10",
+                "Example Sentence Translation": "11"
+            }
+        ]
+    }
+}
