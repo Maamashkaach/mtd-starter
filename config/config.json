@@ -1,6 +1,6 @@
 {
     "config": {
-        "L1": "Danish",
+        "L1": "Southern Michif",
         "L2": "English",
         "optional_field_title": "Optional Info",
         "alphabet": "../alphabet.csv"

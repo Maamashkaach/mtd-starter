@@ -9,7 +9,7 @@
             "source": "word",
             "target": "compare_form",
             "functions": [
-                "../transducers/danish-approx.yaml"
+                "../transducers/southernmichif-approx.yaml"
             ]
         },
         {
@@ -21,19 +21,21 @@
         }
     ],
     "targets": {
-        "entryID": "0",
-        "definition": "1",
-        "word": "2",
-        "audio": [
-            {
-                "speaker": "3",
-                "filename": "4"
-            }
-        ],
-        "theme": "5",
+        "definition": "2",
+        "word": "0",
+        "theme": "6",
+        "secondary_theme": "7",
         "optional": [
             {
-                "Pronunciation": "6"
+                "Root": "1",
+                "Awa/Ooma": "5",
+                "Category": "6",
+                "Subcategory": "7",
+                "Part of Speech": "4",
+                "Variations": "8",
+                "Notes": "9",
+                "Example Sentence": "10",
+                "Example Sentence Translation": "11"
             }
         ]
     }
