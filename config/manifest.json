@@ -23,19 +23,20 @@
     "targets": {
         "definition": "2",
         "word": "0",
-        "theme": "6",
-        "secondary_theme": "7",
+        "theme": "7",
+        "secondary_theme": "8",
         "optional": [
             {
                 "Root": "1",
-                "Awa/Ooma": "5",
-                "Category": "6",
-                "Subcategory": "7",
+                "Awa/Ooma": "6",
+                "Category": "7",
+                "Subcategory": "8",
                 "Part of Speech": "4",
-                "Variations": "8",
-                "Notes": "9",
-                "Example Sentence": "10",
-                "Example Sentence Translation": "11"
+                "Lexical Category": "5",
+                "Variations": "9",
+                "Notes": "10",
+                "Example Sentence": "11",
+                "Example Sentence Translation": "12"
             }
         ]
     }
